@@ -1,0 +1,111 @@
+body
+{
+    background: white;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+ .background-box{
+    background-image: linear-gradient(to right, #4dd2ff , #a366ff);
+    width: 150%;
+    height: 113%;
+    position: fixed;
+    top: -23rem;
+    left: -19rem;
+    transform: rotate(167deg);
+    z-index: -1;
+    
+} 
+.content-container{
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content-container .text-container 
+{
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    top: 6rem;
+
+}
+.content-container .text-container .first-line
+{
+    color: white;
+    size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    direction: ltr;
+    padding-top: 30px;
+    text-align: left;
+
+    
+}
+.content-container .text-container .second-line
+{
+    color: white;
+    size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    direction: ltr;
+    text-align: left;
+    
+}
+.content-container .text-container button
+{
+    border: none;
+    background: white;
+    color: #4da6ff;
+    font-size: 1.5rem;
+    padding: 23px;
+    transition: 0.1s;
+}
+
+.content-container .text-container button:hover{
+    color: green;
+    transform: scale(1.1);
+}
+
+.content-container .mobile-element
+{
+    display: inline-block;
+    border-top: 43px solid white;
+    border-right: 12px solid white;
+    border-left: 12px solid white;
+    border-bottom: 44px solid white;
+    width: 15rem;
+    height: 27rem;
+    background-image: linear-gradient(to top, #4dffb8 , #4dffff);
+    border-radius: 44px;
+    transform: rotate(-199deg);
+    margin-left: 100px;
+    box-shadow: 0px 3px 19px #88886B;
+}
+
+.content-container .mobile-element .boutton
+{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 43%;
+    cursor: pointer;
+    border: 3px solid rgb(245, 240, 240);
+    width: 21px;
+    height: 27px;
+    margin: -37px;
+    margin-bottom: 180px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
