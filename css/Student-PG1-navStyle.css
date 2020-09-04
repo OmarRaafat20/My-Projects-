@@ -1,0 +1,325 @@
+  #mainNav .navbar-nav1>li.nav-item1>a.nav-link1.active:active,
+  #mainNav .navbar-nav1>li.nav-item1>a.nav-link1.active:focus,
+  #mainNav .navbar-nav1>li.nav-item1>a.nav-link1.active:hover {
+    color: rgb(255, 255, 255);
+    background: crimson;
+  }
+
+  
+.bg-primary1{
+  background-color: crimson !important;
+  }
+  a.bg-primary1:hover,
+  a.bg-primary1:focus,
+  button.bg-primary1:hover,
+  button.bg-primary1:focus{
+    background-color: crimson ;
+  }
+  
+  .tbody-color{
+      background-color: crimson;
+  }
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    font: caption;
+    font-weight: bold;
+  }
+
+  tr:hover{
+      font-size: large;
+  }
+  
+.btn {
+
+    color: whitesmoke;
+    padding: 7px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 19px;
+    border: solid 1px white;
+  }
+  .table th,
+  .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 0.125rem solid #dee2e6;
+  }
+  .table thead th {
+    vertical-align: bottom;
+    border-bottom: 0.25rem solid #dee2e6;
+  }
+  .table tbody+tbody {
+    border-top: 0.25rem solid #dee2e6;
+  }
+  .table-sm th,
+  .table-sm td {
+    padding: 0.3rem;
+  }
+  .table-bordered {
+    border: 0.125rem solid #dee2e6;
+  }
+  .table-bordered th,
+  .table-bordered td {
+    border: 0.125rem solid #dee2e6;
+  } 
+  .table-bordered thead th,
+  .table-bordered thead td {
+    border-bottom-width: 0.25rem;
+  }
+  .table-borderless th,
+  .table-borderless td,
+  .table-borderless thead th,
+  .table-borderless tbody+tbody {
+    border: 0;
+  }
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  .table-hover tbody tr:hover {
+    color: #212529;
+    background-color: rgba(0, 0, 0, 0.075);
+  }
+  .table-primary,
+  .table-primary>th,
+  .table-primary>td {
+    background-color: #bfece3;
+  }
+  .table-primary th,
+  .table-primary td,
+  .table-primary thead th,
+  .table-primary tbody+tbody {
+    border-color: #88dccc;
+  }
+  .table-hover .table-primary:hover {
+    background-color: #abe6da;
+  }
+  .table-hover .table-primary:hover>td,
+  .table-hover .table-primary:hover>th {
+    background-color: #abe6da;
+  }
+  .table-secondary,
+  .table-secondary>th,
+  .table-secondary>td {
+    background-color: #c4c9ce;
+  }
+  .table-secondary th,
+  .table-secondary td,
+  .table-secondary thead th,
+  .table-secondary tbody+tbody {
+    border-color: #919ba4;
+  }
+  .table-hover .table-secondary:hover {
+    background-color: #b6bcc2;
+  }
+  .table-hover .table-secondary:hover>td,
+  .table-hover .table-secondary:hover>th {
+    background-color: #b6bcc2;
+  }
+  .table-success,
+  .table-success>th,
+  .table-success>td {
+    background-color: #c3e6cb;
+  }
+  .table-success th,
+  .table-success td,
+  .table-success thead th,
+  .table-success tbody+tbody {
+    border-color: #8fd19e;
+  }
+  .table-hover .table-success:hover {
+    background-color: #b1dfbb;
+  }
+  .table-hover .table-success:hover>td,
+  .table-hover .table-success:hover>th {
+    background-color: #b1dfbb;
+  }
+  .table-info,
+  .table-info>th,
+  .table-info>td {
+    background-color: #bee5eb;
+  }
+  .table-info th,
+  .table-info td,
+  .table-info thead th,
+  .table-info tbody+tbody {
+    border-color: #86cfda;
+  }
+  .table-hover .table-info:hover {
+    background-color: #abdde5;
+  }
+  .table-hover .table-info:hover>td,
+  .table-hover .table-info:hover>th {
+    background-color: #abdde5;
+  }
+  .table-warning,
+  .table-warning>th,
+  .table-warning>td {
+    background-color: #ffeeba;
+  }
+  .table-warning th,
+  .table-warning td,
+  .table-warning thead th,
+  .table-warning tbody+tbody {
+    border-color: #ffdf7e;
+  }
+  .table-hover .table-warning:hover {
+    background-color: #ffe8a1;
+  }
+  .table-hover .table-warning:hover>td,
+  .table-hover .table-warning:hover>th {
+    background-color: #ffe8a1;
+  }
+  .table-danger,
+  .table-danger>th,
+  .table-danger>td {
+    background-color: #f5c6cb;
+  }
+  .table-danger th,
+  .table-danger td,
+  .table-danger thead th,
+  .table-danger tbody+tbody {
+    border-color: #ed969e;
+  }
+  .table-hover .table-danger:hover {
+    background-color: #f1b0b7;
+  }
+  .table-hover .table-danger:hover>td,
+  .table-hover .table-danger:hover>th {
+    background-color: #f1b0b7;
+  }
+  .table-light,
+  .table-light>th,
+  .table-light>td {
+    background-color: #fdfdfe;
+  }
+  .table-light th,
+  .table-light td,
+  .table-light thead th,
+  .table-light tbody+tbody {
+    border-color: #fbfcfc;
+  }
+  .table-hover .table-light:hover {
+    background-color: #ececf6;
+  }
+  .table-hover .table-light:hover>td,
+  .table-hover .table-light:hover>th {
+    background-color: #ececf6;
+  }
+  .table-dark,
+  .table-dark>th,
+  .table-dark>td {
+    background-color: #c6c8ca;
+  }
+  .table-dark th,
+  .table-dark td,
+  .table-dark thead th,
+  .table-dark tbody+tbody {
+    border-color: #fffefe;
+  } 
+  .table-hover .table-dark:hover {
+    background-color: #b9bbbe;
+  }
+  .table-hover .table-dark:hover>td,
+  .table-hover .table-dark:hover>th {
+    background-color: #b9bbbe;
+  }
+  .table-active,
+  .table-active>th,
+  .table-active>td {
+    background-color: rgba(0, 0, 0, 0.075);
+  }
+  .table-hover .table-active:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+  }
+  .table-hover .table-active:hover>td,
+  .table-hover .table-active:hover>th {
+    background-color: rgba(0, 0, 0, 0.075);
+  }
+  .table .thead-dark th {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #454d55;
+  }
+  .table .thead-light th {
+    color: #495057;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+  }
+  .table-dark {
+    color: #fff;
+    background-color: #343a40;
+  }
+  .table-dark th,
+  .table-dark td,
+  .table-dark thead th {
+    border-color: #454d55;
+  }
+  .table-dark.table-bordered {
+    border: 0;
+  }
+  .table-dark.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  .table-dark.table-hover tbody tr:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.075);
+    font-size: larger;
+  }
+  @media (max-width: 575.98px) {
+    .table-responsive-sm {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .table-responsive-sm>.table-bordered {
+      border: 0;
+    }
+  }
+  @media (max-width: 767.98px) {
+    .table-responsive-md {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .table-responsive-md>.table-bordered {
+      border: 0;
+    }
+  }
+  @media (max-width: 991.98px) {
+    .table-responsive-lg {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .table-responsive-lg>.table-bordered {
+      border: 0;
+    }
+  }
+  @media (max-width: 1199.98px) {
+    .table-responsive-xl {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .table-responsive-xl>.table-bordered {
+      border: 0;
+    }
+  }
+  .table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .table-responsive>.table-bordered {
+    border: 0;
+  }
